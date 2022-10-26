@@ -8,9 +8,151 @@
 }
 
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background: var(--body-bg-color);
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 4rem;
+    display: flex;
+}
+
+.profile-information > *{
+    margin: 0 0 3rem 0;
+}
+
+/* user information */
+
+.user-information{
+    width: 34.8rem;
+    height: 29.2rem;
+    background: var(--bg-cards);
+    border-radius: 2rem;
+}
+
+.user-information-container{
+    height: 29.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* image */
+
+.user-information-container picture img{
+    width: 12.8rem;
+    height: 12.8rem;
+    border-radius: 30rem;
+    margin: 0 0 3rem 0;
+    border: 0.2rem #00FF00 solid;
+}
+
+/* name */
+
+.user-information-container h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 1rem 0;
+}
+
+/* role */
+
+.user-information-container p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+/* --- */
+
+/* user media */
+
+.user-media{
+    width: 34.8rem;
+    height: 34.8rem;
+    background: var(--bg-cards);
+    border-radius: 2rem;
+    padding: 3rem 4rem;
+}
+
+.user-media-container{
+    height: calc(34.8rem - 6rem) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* icon */
+
+.user-media-container .media svg{
+    stroke: var(--text-color);
+}
+
+/* text */
+
+.user-media-container .media a{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--text-color);
+    gap: 2rem;
+}
+
+.user-media-container .media a:hover{
+    filter: brightness(0.9);
+}
+
+/* --- */
+
+/* user techs */
+
+.user-techs{
+    width: 34.8rem;
+    height: 20.8rem;
+    border-radius: 2rem;
+    background: var(--bg-cards);
+    padding: 3rem 2rem;
+}
+
+/* techs */
+
+.techs-container{
+    width: calc(34.8rem - 4rem);
+    height: 10.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-techs-container h1{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 0 0 2rem 0;
+}
+
+.techs-container .techs{
+    width: 8.6rem;
+    height: 2.4rem;
+    background: var(--bg-techs);
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* text */
+
+.techs-container .techs p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
