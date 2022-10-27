@@ -1,0 +1,65 @@
+@media (max-width:1160px){
+
+    :root{
+        font-size: 60%;
+    }
+
+    .feed{
+        flex-wrap: wrap;
+    }
+
+    .feed-item{
+        max-width: 95.2rem;
+        width: 100%;
+    }
+
+    .posts-information .tags{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media (max-width:960px){
+    .posts-feed-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+@media (max-width:760px){
+    body{
+        flex-direction: column;
+    }
+
+    .user-information{
+        max-width: 95.2rem;
+        width: 100%; 
+    }
+
+    .user-media{
+        max-width: 95.2rem;
+        width: 100%; 
+    }
+
+    .user-techs{
+        max-width: 95.2rem;
+        width: 100%; 
+    }
+
+    .user-experiences{
+        max-width: 95.2rem;
+        width: 100%; 
+    }
+
+    .user-education{
+        max-width: 95.2rem;
+        width: 100%; 
+    }
+}
+
+@media (max-width:500px){
+    :root{
+        font-size: 58%;
+    }
+}
