@@ -18,6 +18,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     padding: 4rem;
     display: flex;
+    margin: auto;
     max-width: 144rem;
     width: 100%;
     gap: 6rem;
